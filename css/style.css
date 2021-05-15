@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+body {
+    background-color: rgb(36, 25, 25);
+}
+.video {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h2 {
+    padding:10px;
+    text-align: center;
+    color:whitesmoke;
+}
+
+.funcs {
+    text-align: center;
+    padding: 5px;
+}
+
+.funcs img {
+    padding:10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(221, 221, 221);
+}
+
+a:hover {
+    color:white;
+}
+
+iframe:hover {
+    box-shadow: rgba(0, 0, 0, 0.385) 5px 5px 10px 10px;
+}
